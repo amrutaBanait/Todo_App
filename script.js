@@ -17,30 +17,30 @@ function sub(e) {
     createRow(Task,taskName);
 }
 
-// function createRow(Task,taskName){
+function createRow(Task,taskName){
 
 
 
-// let ul = document.getElementById("list");
+let ul = document.getElementById("list");
 
-// let list_1 = document.createElement("h2");
-// list_1.innerHTML = "TASK - " + Task.name;
+let list_1 = document.createElement("h2");
+list_1.innerHTML = "TASK - " + Task.name;
 
-// let list_2 = document.createElement("h2");
-// list_2.innerHTML = "DATE - " + Task.date;
+let list_2 = document.createElement("h2");
+list_2.innerHTML = "DATE - " + Task.date;
 
-// let list_3 = document.createElement("h2");
-// list_3.innerHTML = "STATUS - " + Task.status;
+let list_3 = document.createElement("h2");
+list_3.innerHTML = "STATUS - " + Task.status;
 
-// let done = document.createElement("button");
-// done.innerHTML = "Done";
+let done = document.createElement("button");
+done.innerHTML = "Done";
 
 
-// done.onclick = function() {
-//     list.style.backgroundColor = "green";
-//     list_1.style.textDecoration = "text-through"
+done.onclick = function() {
+    list.style.backgroundColor = "green";
+    list_1.style.textDecoration = "text-through"
    
-// }
+}
 
 // let id4 = document.getElementById("id4");
 // if(id4.innerHTML === "0") {
