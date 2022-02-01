@@ -41,6 +41,5 @@ h1{
 
 #todo_list{
     width:100%;
-   
-    border:1px solid black;
+    border-top:1px solid black;
 }
