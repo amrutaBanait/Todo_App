@@ -59,15 +59,15 @@ remove.onclick = function (){
     id4.innerHTML = Number(count) - 1;
 }
 
-// let toggle_bn = document.createElement("button");
-// toggle_bn.innerHTML ="TOGGLE";
-// toggle_bn.onclick = function() {
-//     let x = task.bind(Task, taskName, !Task.status)
-//     x()
-//     list_3.innerHTML = "Task - " + Task.status;
-// }
+let toggle_bn = document.createElement("button");
+toggle_bn.innerHTML ="TOGGLE";
+toggle_bn.onclick = function() {
+    let x = task.bind(Task, taskName, !Task.status)
+    x()
+    list_3.innerHTML = "Task - " + Task.status;
+}
 
 
-// ul.append(list_1,list_2,list_3,toggle_bn,done,remove);
-// todo_list.append(ul);
-// }
+ul.append(list_1,list_2,list_3,toggle_bn,done,remove);
+todo_list.append(ul);
+}
