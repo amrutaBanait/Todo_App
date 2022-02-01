@@ -42,22 +42,22 @@ done.onclick = function() {
    
 }
 
-// let id4 = document.getElementById("id4");
-// if(id4.innerHTML === "0") {
-//     id4.innerHTML = 1;
-// } else {
-//     let count = id4.innerHTML;
-//     id4.innerHTML = Number(count) + 1;
-// }
+let id4 = document.getElementById("id4");
+if(id4.innerHTML === "0") {
+    id4.innerHTML = 1;
+} else {
+    let count = id4.innerHTML;
+    id4.innerHTML = Number(count) + 1;
+}
 
-// let remove = document.createElement("button");
-// remove.innerHTML = "Remove";
+let remove = document.createElement("button");
+remove.innerHTML = "Remove";
 
-// remove.onclick = function (){
-//     list.innerHTML = "";
-//     let count = id4.innerHTML;
-//     id4.innerHTML = Number(count) - 1;
-// }
+remove.onclick = function (){
+    list.innerHTML = "";
+    let count = id4.innerHTML;
+    id4.innerHTML = Number(count) - 1;
+}
 
 let toggle_bn = document.createElement("button");
 toggle_bn.innerHTML ="TOGGLE";
