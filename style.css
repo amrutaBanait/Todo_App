@@ -25,7 +25,7 @@ label{
     font-family: cursive;
 }
 
-/* #id3{
+#id3{
      float: right;
      margin-left: 600px;
      font-size: x-large;
@@ -36,4 +36,4 @@ h1{
 }
 #id4{
     margin-left: 90px;
-} */
+}
